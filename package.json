@@ -9,6 +9,7 @@
   "author": "Nathan Romike",
   "license": "MIT",
   "dependencies": {
-    "forever": "^0.15.2"
+    "forever": "^0.15.2",
+    "newrelic": "^1.28.1"
   }
 }

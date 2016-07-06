@@ -1,3 +1,5 @@
+var nr = require('newrelic');
+
 var http = require("http"),
     port = process.env.PORT || 1881;
 
