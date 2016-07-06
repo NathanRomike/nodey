@@ -1,0 +1,14 @@
+{
+  "name": "nodey",
+  "version": "1.0.0",
+  "description": "Simple node app to practice implementing new relic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Romike",
+  "license": "MIT",
+  "dependencies": {
+    "forever": "^0.15.2"
+  }
+}
