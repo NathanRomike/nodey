@@ -7,7 +7,7 @@ var randomNumber = Math.floor(Math.random() * 999999);
 
 var formattedNumber = randomNumber.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
-var htmlBody = '<html><head><meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/></head><body><h1>Hello World!</h1><h2>' + formattedNumber + ' people are thinking  "I love node.js" right now!</h2></body></html>';
+var htmlBody = '<html><head><meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/></head><body><h1 style=text-align:center;padding:20px;>Hello World!</h1><h3 style=text-align:center;>' + formattedNumber + ' people are thinking  "I love node.js" right now!</h3></body></html>';
 
 var server = http.createServer(function(request, response) {
   response.writeHeader(200, {"Content-Type": "text/html"});
